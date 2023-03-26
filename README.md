@@ -24,3 +24,25 @@ We can obtain the the IP addresses of the host machine and VM by going searching
 Once you login to Nessus, click on Create a New Scan, choose Basic scan. In the new window, under Settings, give the scan a name, this could be anyting you want to identify the scan with, description and under Target put the IP address of the VM, you should have the IP address from the previous step. 
 <img src="https://user-images.githubusercontent.com/126641333/227749577-6e2e8a13-c499-4c78-bbef-5a0274db9d42.png"/>
 
+
+<h2>Inspecting the first Scan (no Credentials)</h2>
+After running the first scan, you will be able to see the results by clicking on the scan. You can navigate to the vulnerability tab to see what vulnerabilities Nessus was able to find. You can deep dive into each vunlnerability to find out more information. This section will be somewhat limited due to the scan being uncredentialed. 
+
+<img src="https://user-images.githubusercontent.com/126641333/227749834-cbd30aa7-cb70-4455-9850-1116de4ac41b.png"/>
+
+<img src="https://user-images.githubusercontent.com/126641333/227749844-19f2bdff-9735-4a5a-af29-a13324be1216.png"/>
+
+<h2>Configuring VM for Credentialed Scan</h2>
+The following is provided by Nessus. 
+Go to your VM and do the following 
+<ul>
+  <li> Enable Remote Registry</li>
+  <li> Enable Printer and File Sharing </li> 
+  <li> Disable Firewall </li> 
+  <li> Disable User Account Control </li>
+</ul>
+<img src="https://user-images.githubusercontent.com/126641333/227750028-ea86a7e6-5db2-4d06-9a60-d32e54a5d0c8.png"/>
+<img src="https://user-images.githubusercontent.com/126641333/227750031-2af3f0e4-d607-4d39-a3cd-a585817175be.png"/>
+<img src="https://user-images.githubusercontent.com/126641333/227750042-ace75c56-8bd2-47c6-9e52-0322f27cf1be.png"/>
+<img src="https://user-images.githubusercontent.com/126641333/227750047-605b081d-d6e5-4bdc-9adb-3a475276af62.png"/>
+
