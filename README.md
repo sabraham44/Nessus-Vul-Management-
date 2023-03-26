@@ -46,3 +46,9 @@ Go to your VM and do the following
 <img src="https://user-images.githubusercontent.com/126641333/227750042-ace75c56-8bd2-47c6-9e52-0322f27cf1be.png"/>
 <img src="https://user-images.githubusercontent.com/126641333/227750047-605b081d-d6e5-4bdc-9adb-3a475276af62.png"/>
 
+<h2>Credentialed Scan</h2>
+Leave the settings from the Basic scan the same. Add the following, go to Credentials tap and for Authentication Method use Password and provide your Username and Password for your VM. These are the credentials you use to log into your VM. Leave the rest of the settings as default, then back to My scan and run the scan again. 
+
+<img src="https://user-images.githubusercontent.com/126641333/227750137-d3948f69-2186-4367-ac7b-e60ef4c29e66.png"/>
+
+
